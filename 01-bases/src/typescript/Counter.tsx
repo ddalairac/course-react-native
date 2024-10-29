@@ -7,8 +7,8 @@ export const Counter = () => {
       <h3>Counter</h3>
       <p>count: {count}</p>
       <div>
+        <button onClick={() => increaseBy(-1)}>-1</button>{' '}
         <button onClick={() => increaseBy(+1)}>+1</button>
-        <button onClick={() => increaseBy(-1)}>-1</button>
       </div>
     </>
   );
